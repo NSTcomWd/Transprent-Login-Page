@@ -1,0 +1,63 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: url("/bglogin.JPG") no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  width: 32%;
+  color: aliceblue;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-family: "Trochut", cursive;
+}
+.container h1 {
+  font-size: 60px;
+  border-bottom: 4px solid;
+  margin: 14px 19px;
+  padding: 15px;
+}
+.box {
+  width: 100%;
+  margin: 22px 0px;
+  padding: 5px 0px;
+  border-bottom: 2px solid white;
+}
+.box i {
+  width: 10px;
+  font-size: 22px;
+  text-align: center;
+  padding: 0px 12px;
+}
+.container input {
+  border: none;
+  background: none;
+  font-size: large;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.btn {
+  border: 1px solid;
+  background: rgba(206, 25, 182, 0.5);
+  border-radius: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+  outline: none;
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  font-size: medium;
+}
+.btn:hover {
+  font-size: larger;
+}
